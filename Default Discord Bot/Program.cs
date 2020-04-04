@@ -25,7 +25,7 @@ namespace Default_Discord_Bot
 
             await _handler.InstallCommandsAsync();
 
-            await _client.LoginAsync(TokenType.Bot, "{INSERT TOKEN HERE}");
+            await _client.LoginAsync(TokenType.Bot, "{Njk1OTQ5OTc1NTQ4MzMwMDE0.Xoiu-w.Pe55ZU0iKFE8tyghvCb9NDNVe3Y}");
             await _client.StartAsync();
 
             await Task.Delay(-1);
